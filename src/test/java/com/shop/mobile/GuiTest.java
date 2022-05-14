@@ -26,6 +26,7 @@ public class GuiTest  extends Abstract {
         AllBrandsPage allBrandsPage = homePage.getAllBrandsPage();
         Assert.assertTrue(allBrandsPage.isPageOpened());
         Assert.assertTrue(allBrandsPage.isBrandsSorted());
+
     }
 
 //    @Test
