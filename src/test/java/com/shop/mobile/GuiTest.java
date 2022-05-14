@@ -28,18 +28,20 @@ public class GuiTest  extends Abstract {
         Assert.assertTrue(allBrandsPage.isBrandsSorted());
     }
 
-    @Test
-    public void isDateSortingNewestFirst(){
-        HomePage homePage = new HomePage(driver);
-        homePage.open();
-        Assert.assertTrue(homePage.isPageOpened());
-        ModelListPage modelListPage = homePage.getPhone("Lenovo");
-        homePage.closeAgree();
-        ModelDescPage modelDescPage = modelListPage.getModel();
-        OpinionsPage opinionsPage = modelDescPage.getOpinionsPage();
-        opinionsPage.isDateNewestFirst();
+//    @Test
+//    public void isDateSortingNewestFirst(){
+//        HomePage homePage = new HomePage(driver);
+//        homePage.open();
+//        Assert.assertTrue(homePage.isPageOpened());
+//        ModelListPage modelListPage = homePage.getPhone("Lenovo");
+//        homePage.closeAgree();
+//        ModelDescPage modelDescPage = modelListPage.getModel();
+//        OpinionsPage opinionsPage = modelDescPage.getOpinionsPage();
+//        opinionsPage.isDateNewestFirst();
+//
+//    }
 
-    }
+
 
 
 
