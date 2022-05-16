@@ -29,10 +29,7 @@ public class OpinionsPage extends Abstract {
     }
 
     //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
-    //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
-
-
-
+    //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
 
 
 //    public void isDateNewestFirst(){
