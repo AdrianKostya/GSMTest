@@ -34,6 +34,7 @@ public class OpinionsPage extends Abstract {
 
 
 
+
 //    public void isDateNewestFirst(){
 //        SimpleDateFormat allDate = new SimpleDateFormat("dd MMM yyyy hh:min aa");
 //        SimpleDateFormat dateonly = new SimpleDateFormat("dd MMM yyyy");
