@@ -57,9 +57,6 @@ public class OpinionsPage extends Abstract {
 //                }else if(!postedTimeStrEach.equals("minutes")&& !postedTimeStr.equals("hours")){
 //                    postedTimeStrEach
 //                }
-//
-
-
 
 //
 //        }
