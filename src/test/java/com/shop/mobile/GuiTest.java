@@ -18,16 +18,16 @@ public class GuiTest  extends Abstract {
         softAssert.assertAll();
     }
 
-//    @Test
-//    public void isBrandsSorted(){
-//        HomePage homePage = new HomePage(driver);
-//        homePage.open();
-//        Assert.assertTrue(homePage.isPageOpened());
-//        AllBrandsPage allBrandsPage = homePage.getAllBrandsPage();
-//        Assert.assertTrue(allBrandsPage.isPageOpened());
-//        Assert.assertTrue(allBrandsPage.isBrandsSorted());
-//
-//    }
+    @Test
+    public void isBrandsSorted(){
+        HomePage homePage = new HomePage(driver);
+        homePage.open();
+        Assert.assertTrue(homePage.isPageOpened());
+        AllBrandsPage allBrandsPage = homePage.getAllBrandsPage();
+        Assert.assertTrue(allBrandsPage.isPageOpened());
+        Assert.assertTrue(allBrandsPage.isBrandsSorted());
+
+    }
 
 //    @Test
 //    public void isDateSortingNewestFirst(){
