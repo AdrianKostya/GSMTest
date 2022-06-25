@@ -22,7 +22,6 @@ public class Abstract {
     @BeforeTest
     public void before(){
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
-        driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized"); // open Browser in maximized mode
         options.addArguments("disable-infobars"); // disabling infobars
@@ -31,6 +30,7 @@ public class Abstract {
         options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
+        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
 
