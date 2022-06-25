@@ -23,6 +23,7 @@ public class Abstract {
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+
     }
 
     @AfterTest
