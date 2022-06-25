@@ -20,7 +20,7 @@ public class Abstract {
 
     @BeforeTest
     public void before(){
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
